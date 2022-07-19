@@ -1,0 +1,2534 @@
+fileFormatVersion: 2
+guid: b047526d6ce4a45279f908ba18d444e8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BBUCKET_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 602
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c72a36c541a9425faeeb363d537dd71
+      internalID: 622836232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 602
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b24fc55d857f4a0d862ac9e7740e070
+      internalID: -1268231217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 602
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f2d200020c040a797418d9bab24233
+      internalID: -1564929136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_3
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 602
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55f667504a504127a13589c5695782b
+      internalID: 367359820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_4
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 602
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470e9f7029c1f401dabd097d1f186fc7
+      internalID: -606553274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 603
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033d9d786a88f4eb9895c11e3bb577b4
+      internalID: -834793384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 603
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145c4f04e19f44d29a114e3087238e8d
+      internalID: 581770622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_7
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 602
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647a2418d47cb4b778c015070a17ac19
+      internalID: 457163968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 552
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a59f836d07d54fa6b5461faaafbbc22
+      internalID: 2116380034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_9
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 552
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c70e38b72c34449d8542dbbc10a804a
+      internalID: -780437214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_10
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 551
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091ce918e3cb7478bbed8ca2034eeaa6
+      internalID: 1096744441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_11
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 555
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e219894035bd14ecdac42b2747db0174
+      internalID: 390191112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_12
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 561
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07aadd888b0f749c3b24e519ad8f3a16
+      internalID: -1175923643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_13
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 555
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98035816d020740bf8aa62c25aa2b209
+      internalID: 1201294990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_14
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 552
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb143f1fe4b644bfb7ea85f49a6e6e0
+      internalID: 469160534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_15
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 551
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56420e05c77a4e8d80564f5109ae0b2
+      internalID: 871291596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_16
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 502
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471ab5abec808444d91d2d48bf847756
+      internalID: 166914248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_17
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 503
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827432532daeb46e3baafa6214de1517
+      internalID: -1890710036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_18
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 503
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbd4a2e2eab245b9a8bfa72460479d2
+      internalID: 1633736994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_19
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 502
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da245b0c5d0f4debb38ce57e77a8f90
+      internalID: -706297127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_20
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 502
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ac1881ba3e9442ab85aedf9a1ee825
+      internalID: 1162823912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_21
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 502
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5ee03e8d2b64cb98a5aa82f8d42660
+      internalID: 1790270263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_22
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 502
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c45899179944e07bdd2e8de9f0c222
+      internalID: -229727892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_23
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 502
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d45d6791534c438385657d4421e2aee
+      internalID: -1540287150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 452
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248dd99d0c9c746229ed43f050f15888
+      internalID: -1635524283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_25
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 454
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc65dca01fd0f40c296644904785672e
+      internalID: 586655979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_26
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 457
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4da4d33c9004541bf281fbb30ae199
+      internalID: 28969500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_27
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 452
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b638612fe525a417083752b8f62bd9d9
+      internalID: 1489159478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_28
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 451
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1343bfc9c6e454378a89882f8104918e
+      internalID: 1834747497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_29
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 452
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7b9f8cdd1d04e129e22d5fefd7f3b7
+      internalID: -862612098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_30
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 452
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abb794848d1f48e9bf88237038a78db
+      internalID: 1701919417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_31
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 451
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73f5539bd66948b58a663ae81a03742
+      internalID: -701033787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_32
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 402
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b25576a8c8a4f2e852a627666fb2a6
+      internalID: 2080693727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_33
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 402
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f290d4bb1fc4a13b9a28e6533e31a8
+      internalID: -122841393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_34
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 402
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13915828a4b41464ea1035c0b95f422e
+      internalID: 1646849594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_35
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 403
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08842d92d0de741049e2eb69282db47c
+      internalID: -1811705061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_36
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 403
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17c56bf02b3d41eb8b8597d376a2628
+      internalID: 1709056408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_37
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 403
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1429a0e1b5e544c2b775625416154d8
+      internalID: 382970673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_38
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 403
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9470c631c444a4bfaa2b00ac43c00609
+      internalID: -1841366921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_39
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 402
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6b90e7851d44bc1bb8b9c131a6f857
+      internalID: 139331078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_40
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 352
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02bcd98b941e480daf06aeb6c445019
+      internalID: -455881928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_41
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 351
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc30cbf928a74642ae96d4c41c10273
+      internalID: 811177056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_42
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 352
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbfef863bc0a4ec8982052f229e182b
+      internalID: -438212556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_43
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 351
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350734bc6ed0944e984a0e28830ddfa3
+      internalID: 1744763196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_44
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 351
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f32292ac0764e47845aa6e274aa7e0
+      internalID: -800811027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_45
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 351
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3f63c57fa574ee998aaa78697945a8
+      internalID: 1224295446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_46
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 387
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1706593d03d7441bba879de653cc586
+      internalID: -573974065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_47
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 351
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90ea53137b1f4b4ba60f0a715fb2909
+      internalID: -1430082658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_48
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 387
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b96b7797a1864719a6db01d2e4896cb
+      internalID: 1380534057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_49
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 351
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34323480ea1a84308b8931ac83253eed
+      internalID: -345553775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_50
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 301
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901f30f00545b43e49a2892f138d861a
+      internalID: -75087808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_51
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 301
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2f171427f664d2f9851286520e4e88
+      internalID: 475690412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_52
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 301
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a595d9d5d58124565a84f6745c15bf22
+      internalID: 553009067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_53
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 301
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe651a202ce1f46188a61d63244302e5
+      internalID: 1207477603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_54
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 301
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841dedc7d9ba74c46bb867c04a135825
+      internalID: 1184984831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_55
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 301
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6175dc4e65234750af5c1c5a13ff2f8
+      internalID: -1905136813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_56
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 302
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af02178356cd4536a71d5d163ff81c6
+      internalID: -377755330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_57
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 302
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502153a904ac54d328b4c36b4940ea51
+      internalID: 1605533015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_58
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 252
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a394ae124ec52431bb0c8b1c0c7f65ab
+      internalID: -1389138911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_59
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 252
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c749fdb0cd14ef39a2b6ceacd28296
+      internalID: -1964915967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_60
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 252
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db45aac5da6f847ae9ee1d62db47f29a
+      internalID: -1230446385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_61
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 252
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fdc61a468f34e03b2ef77163eb8275
+      internalID: 221336442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_62
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 252
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d2299a4aad843d5a5ff410535529d7
+      internalID: -1263776452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_63
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 252
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9c6d54ecb8c4107baab7ffdb0feead
+      internalID: 156908118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_64
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 252
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3b92d545416492fa64daf8c462d265
+      internalID: -805575811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_65
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 252
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1d1093abb734687b320a3ca90ceae4
+      internalID: 1392759163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_66
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 202
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad86775ae144b4a989628690bc039d77
+      internalID: 2013289727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_67
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 202
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b492caaf964c84d4e86761ae8e640544
+      internalID: 590881544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_68
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 202
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c20294fa770418ba295ecdc2f5f449
+      internalID: -1012043407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_69
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 202
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4964497104cc04d62aa6d13517092e3d
+      internalID: 115965231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_70
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 202
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004f764ae38ee416cb87cc25fb06c7ad
+      internalID: 87507565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_71
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 203
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1130aa03ebdfc40c68d94eaa054ed0dc
+      internalID: 650600797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_72
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 203
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b832fb6211ea5456d8e1599de9bb9691
+      internalID: 630893841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_73
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 202
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c720764be07954ad6bf26374abec0aa9
+      internalID: 1786512198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_74
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 152
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0f9111756ec49659bda32ee516a336
+      internalID: -561965299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_75
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 152
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6307b9ae1904dfeb02472c3a92609c
+      internalID: 1104837969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_76
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 151
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab704bbf86624303bc186bb184ac79e
+      internalID: -530940960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_77
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 155
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def82a81d14224eeaa524f6482d66e6b
+      internalID: 698308734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_78
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 161
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6196401d2219240c0890cca5723394a9
+      internalID: -1498857413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_79
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 155
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd9db05687c84de5bf3df712ba4076b
+      internalID: -955727847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_80
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 152
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d9e59ec7fca43b3b61b95a5bcbe2da
+      internalID: -1730803441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_81
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 151
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ae66b640411410fa80ad323fce07a8
+      internalID: -1088308049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_82
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 102
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dacd4ff6552c4925abd4df85af7758f
+      internalID: 1477542825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_83
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 102
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7314af97c5ee240028b1290a6852e898
+      internalID: -526354925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_84
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 102
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2850e4b5fa07445e3b2dd61e8035b3d2
+      internalID: 1586558098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_85
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 103
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d258e5cd77fa49dcb254e25794eb355
+      internalID: 401164785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_86
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 103
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71342e766422b42ca8f3401616d37f8e
+      internalID: -1735880250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_87
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 103
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddd8cdfd603049a0925a381a37de2f8
+      internalID: 266845307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_88
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 103
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74da8d67cded44cd798104e12c8cc63e
+      internalID: -704469154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_89
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 102
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca6ea95df9ef469ca9a374cdfe3c61e
+      internalID: 1157100656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_90
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 52
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4de5d919eab4933840fb71887702ff
+      internalID: 1536117214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_91
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 51
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635c4f75e5fe24db6928553a7fd5808d
+      internalID: -1107580791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_92
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 52
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721c7eacdd93b42379b44d6615a5b072
+      internalID: 1524412020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_93
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 51
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705b38598056f49acbd9a43591517282
+      internalID: 2601622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_94
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 51
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c06c2a3aac7464989c1ebc3914e5a9
+      internalID: -1331991146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_95
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 51
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4b9ef44eb9242f7a7e2e9bb2449cfd
+      internalID: 1978538515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_96
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 87
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74b3fd0e8ac74d11af028ef41067b58
+      internalID: 1416363532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_97
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 51
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54fe36ba9662472ea795ffd46ced00d
+      internalID: -2146913100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_98
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 87
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba80fa78d64b469cb2112c7e4ae21b8
+      internalID: 1048855972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_99
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 51
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86875db15496641f7b06ef59a32e1cc7
+      internalID: 1673530172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_100
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9899df4dcee0349bbb3c2f8dd9210792
+      internalID: 994097787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_101
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144bc3236bb834402802e5cc4143a0f4
+      internalID: -2124387443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_102
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d5c4407742a44af8cb9110045b1ab3
+      internalID: 1561348464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_103
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a453104e19549e68f70dec0a02d3d6
+      internalID: -1037653000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_104
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd4dafd4e31e46e6bfc064befa47f1f
+      internalID: 579695074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_105
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64976c1b540744357af83ea882067466
+      internalID: 2060700000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_106
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 2
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c2a92d841a44643b38c0c93a4143e4
+      internalID: 136856316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BBUCKET_107
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 2
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f148df839b041a3b2b36c977e2d9c7
+      internalID: 1505573733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 57be69594969c400dacff7286a1a40d5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BBUCKET_57: 1605533015
+      BBUCKET_6: 581770622
+      BBUCKET_52: 553009067
+      BBUCKET_10: 1096744441
+      BBUCKET_51: 475690412
+      BBUCKET_65: 1392759163
+      BBUCKET_87: 266845307
+      BBUCKET_50: -75087808
+      BBUCKET_92: 1524412020
+      BBUCKET_89: 1157100656
+      BBUCKET_104: 579695074
+      BBUCKET_30: 1701919417
+      BBUCKET_38: -1841366921
+      BBUCKET_72: 630893841
+      BBUCKET_9: -780437214
+      BBUCKET_54: 1184984831
+      BBUCKET_5: -834793384
+      BBUCKET_94: -1331991146
+      BBUCKET_15: 871291596
+      BBUCKET_17: -1890710036
+      BBUCKET_64: -805575811
+      BBUCKET_80: -1730803441
+      BBUCKET_95: 1978538515
+      BBUCKET_42: -438212556
+      BBUCKET_68: -1012043407
+      BBUCKET_105: 2060700000
+      BBUCKET_66: 2013289727
+      BBUCKET_83: -526354925
+      BBUCKET_24: -1635524283
+      BBUCKET_47: -1430082658
+      BBUCKET_1: -1268231217
+      BBUCKET_29: -862612098
+      BBUCKET_107: 1505573733
+      BBUCKET_21: 1790270263
+      BBUCKET_36: 1709056408
+      BBUCKET_56: -377755330
+      BBUCKET_90: 1536117214
+      BBUCKET_76: -530940960
+      BBUCKET_63: 156908118
+      BBUCKET_35: -1811705061
+      BBUCKET_93: 2601622
+      BBUCKET_75: 1104837969
+      BBUCKET_58: -1389138911
+      BBUCKET_28: 1834747497
+      BBUCKET_48: 1380534057
+      BBUCKET_69: 115965231
+      BBUCKET_97: -2146913100
+      BBUCKET_13: 1201294990
+      BBUCKET_99: 1673530172
+      BBUCKET_98: 1048855972
+      BBUCKET_41: 811177056
+      BBUCKET_44: -800811027
+      BBUCKET_49: -345553775
+      BBUCKET_59: -1964915967
+      BBUCKET_60: -1230446385
+      BBUCKET_85: 401164785
+      BBUCKET_101: -2124387443
+      BBUCKET_12: -1175923643
+      BBUCKET_8: 2116380034
+      BBUCKET_74: -561965299
+      BBUCKET_20: 1162823912
+      BBUCKET_55: -1905136813
+      BBUCKET_37: 382970673
+      BBUCKET_33: -122841393
+      BBUCKET_46: -573974065
+      BBUCKET_78: -1498857413
+      BBUCKET_43: 1744763196
+      BBUCKET_0: 622836232
+      BBUCKET_22: -229727892
+      BBUCKET_100: 994097787
+      BBUCKET_102: 1561348464
+      BBUCKET_27: 1489159478
+      BBUCKET_71: 650600797
+      BBUCKET_81: -1088308049
+      BBUCKET_23: -1540287150
+      BBUCKET_62: -1263776452
+      BBUCKET_84: 1586558098
+      BBUCKET_67: 590881544
+      BBUCKET_79: -955727847
+      BBUCKET_14: 469160534
+      BBUCKET_61: 221336442
+      BBUCKET_25: 586655979
+      BBUCKET_34: 1646849594
+      BBUCKET_86: -1735880250
+      BBUCKET_91: -1107580791
+      BBUCKET_45: 1224295446
+      BBUCKET_53: 1207477603
+      BBUCKET_4: -606553274
+      BBUCKET_70: 87507565
+      BBUCKET_31: -701033787
+      BBUCKET_96: 1416363532
+      BBUCKET_39: 139331078
+      BBUCKET_40: -455881928
+      BBUCKET_103: -1037653000
+      BBUCKET_7: 457163968
+      BBUCKET_82: 1477542825
+      BBUCKET_88: -704469154
+      BBUCKET_32: 2080693727
+      BBUCKET_73: 1786512198
+      BBUCKET_77: 698308734
+      BBUCKET_19: -706297127
+      BBUCKET_26: 28969500
+      BBUCKET_3: 367359820
+      BBUCKET_106: 136856316
+      BBUCKET_2: -1564929136
+      BBUCKET_11: 390191112
+      BBUCKET_16: 166914248
+      BBUCKET_18: 1633736994
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

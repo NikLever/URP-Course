@@ -1,0 +1,71 @@
+{"frames": [
+
+{
+	"filename": "blank.png",
+	"frame": {"x":63,"y":88,"w":54,"h":61},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":3,"w":54,"h":61},
+	"sourceSize": {"w":64,"h":64},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "diamond.png",
+	"frame": {"x":1,"y":88,"w":60,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":60,"h":58},
+	"sourceSize": {"w":64,"h":64},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "platform.png",
+	"frame": {"x":1,"y":1,"w":111,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":111,"h":85},
+	"sourceSize": {"w":112,"h":85},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "bits.png",
+	"format": "RGBA8888",
+	"size": {"w":118,"h":150},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:1e444eb02eb80e15cb239097a835e757:39356e30ed802dc3b74ceeec10dd2fdc:8ddf8f08a99704fe4459f444e40a1fb7$"
+},
+ "platforms":[
+	 {"filename":"platform.png", "x":400, "y":400},
+	 {"filename":"platform.png", "x":500, "y":300},
+	 {"filename":"platform.png", "x":600, "y":300},
+	 {"filename":"platform.png", "x":800, "y":400},
+	 {"filename":"platform.png", "x":1000, "y":300},
+	 {"filename":"platform.png", "x":1200, "y":200},
+	 {"filename":"platform.png", "x":1400, "y":300},
+	 {"filename":"platform.png", "x":1600, "y":400},
+	 {"filename":"platform.png", "x":1800, "y":400},
+	 {"filename":"platform.png", "x":2000, "y":300},
+	 {"filename":"platform.png", "x":2100, "y":300},
+	 {"filename":"platform.png", "x":2250, "y":200},
+	 {"filename":"platform.png", "x":2600, "y":400},
+	 {"filename":"platform.png", "x":2700, "y":300},
+	 {"filename":"platform.png", "x":2900, "y":400},
+	 {"filename":"platform.png", "x":3000, "y":300},
+	 {"filename":"platform.png", "x":3100, "y":300},
+	 {"filename":"platform.png", "x":3250, "y":300},
+	 {"filename":"platform.png", "x":3400, "y":200},
+	 {"filename":"platform.png", "x":3900, "y":400},
+	 {"filename":"platform.png", "x":4000, "y":300}
+ ],
+ "diamonds":[
+	 {"filename":"diamond.png", "x":550, "y":200},
+	 {"filename":"diamond.png", "x":800, "y":300},
+	 {"filename":"diamond.png", "x":1200, "y":100},
+	 {"filename":"diamond.png", "x":2250, "y":100},
+	 {"filename":"diamond.png", "x":2750, "y":200},
+	 {"filename":"diamond.png", "x":3400, "y":100},
+	 {"filename":"diamond.png", "x":4000, "y":200}
+ ]
+}
