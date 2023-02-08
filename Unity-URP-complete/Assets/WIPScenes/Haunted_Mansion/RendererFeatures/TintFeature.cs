@@ -2,80 +2,89 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
-public class TintFeature : ScriptableRendererFeature
+internal class TintFeature : ScriptableRendererFeature
 {
-    class CustomRenderPass : ScriptableRenderPass
+    public Shader m_Shader;
+    public Color m_Color;
+
+    Material m_Material;
+
+    TintPass m_RenderPass = null;
+
+    public override void AddRenderPasses(ScriptableRenderer renderer,
+                                    ref RenderingData renderingData)
     {
-        private Material material;
-        private RenderTargetIdentifier source;
-        private RenderTargetHandle tempTexture;
+        if (renderingData.cameraData.cameraType == CameraType.Game)
+            renderer.EnqueuePass(m_RenderPass);
+    }
 
-        public CustomRenderPass(Material material) : base()
+    public override void SetupRenderPasses(ScriptableRenderer renderer,
+                                        in RenderingData renderingData)
+    {
+        if (renderingData.cameraData.cameraType == CameraType.Game)
         {
-            this.material = material;
-            tempTexture.Init("_TempTintTexture");
-        }
-
-        public void SetSource(RenderTargetIdentifier source)
-        {
-            this.source = source;
-        }
-        
-        public override void OnCameraSetup(CommandBuffer cmd, ref RenderingData renderingData)
-        {
-            RenderTextureDescriptor cameraTextureDesc = renderingData.cameraData.cameraTargetDescriptor;
-            cameraTextureDesc.depthBufferBits = 0;
-            cmd.GetTemporaryRT(tempTexture.id, cameraTextureDesc, FilterMode.Bilinear);
-        }
-
-        public override void Execute(ScriptableRenderContext context, ref RenderingData renderingData)
-        {
-            CommandBuffer cmd = CommandBufferPool.Get("TintFeature");
-
-            Blit(cmd, source, tempTexture.Identifier(), material, 0);
-            Blit(cmd, tempTexture.Identifier(), source);
-
-            context.ExecuteCommandBuffer(cmd);
-            CommandBufferPool.Release(cmd);
-        }
-
-        // Cleanup any allocated resources that were created during the execution of this render pass.
-        public override void OnCameraCleanup(CommandBuffer cmd)
-        {
-            cmd.ReleaseTemporaryRT(tempTexture.id);
+            // Calling ConfigureInput with the ScriptableRenderPassInput.Color argument
+            // ensures that the opaque texture is available to the Render Pass.
+            m_RenderPass.ConfigureInput(ScriptableRenderPassInput.Color);
+            m_RenderPass.SetTarget(renderer.cameraColorTargetHandle, m_Color);
         }
     }
 
-    [System.Serializable]
-    public class Settings
-    {
-        public Material material;
-        public RenderPassEvent renderEvent = RenderPassEvent.AfterRenderingOpaques;
-    }
-
-    [SerializeField]
-    private Settings settings = new Settings();
-
-    CustomRenderPass m_ScriptablePass;
-
-
-    /// <inheritdoc/>
     public override void Create()
     {
-        var material = new Material(Shader.Find("Shader Graphs/Tint"));
-        m_ScriptablePass = new CustomRenderPass(material);
-
-        // Configures where the render pass should be injected.
-        m_ScriptablePass.renderPassEvent = RenderPassEvent.AfterRenderingOpaques;
+        m_Material = CoreUtils.CreateEngineMaterial(m_Shader);
+        m_RenderPass = new TintPass(m_Material);
     }
 
-    // Here you can inject one or multiple render passes in the renderer.
-    // This method is called when setting up the renderer once per-camera.
-    public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData)
+    protected override void Dispose(bool disposing)
     {
-        m_ScriptablePass.SetSource(renderer.cameraColorTarget);
-        renderer.EnqueuePass(m_ScriptablePass);
+        CoreUtils.Destroy(m_Material);
     }
 }
 
+internal class TintPass : ScriptableRenderPass
+{
+    ProfilingSampler m_ProfilingSampler = new ProfilingSampler("TintBlit");
+    Material m_Material;
+    RTHandle m_CameraColorTarget;
+    Color m_Color;
+
+    public TintPass(Material material)
+    {
+        m_Material = material;
+        renderPassEvent = RenderPassEvent.BeforeRenderingPostProcessing;
+    }
+
+    public void SetTarget(RTHandle colorHandle, Color color)
+    {
+        m_CameraColorTarget = colorHandle;
+        m_Color = color;
+    }
+
+    public override void OnCameraSetup(CommandBuffer cmd, ref RenderingData renderingData)
+    {
+        ConfigureTarget(m_CameraColorTarget);
+    }
+
+    public override void Execute(ScriptableRenderContext context, ref RenderingData renderingData)
+    {
+        var cameraData = renderingData.cameraData;
+        if (cameraData.camera.cameraType != CameraType.Game)
+            return;
+
+        if (m_Material == null)
+            return;
+
+        CommandBuffer cmd = CommandBufferPool.Get();
+        using (new ProfilingScope(cmd, m_ProfilingSampler))
+        {
+            m_Material.SetColor("_Color", m_Color);
+            Blit(cmd, m_CameraColorTarget, m_CameraColorTarget, m_Material, 0);
+        }
+        context.ExecuteCommandBuffer(cmd);
+        cmd.Clear();
+
+        CommandBufferPool.Release(cmd);
+    }
+}
 

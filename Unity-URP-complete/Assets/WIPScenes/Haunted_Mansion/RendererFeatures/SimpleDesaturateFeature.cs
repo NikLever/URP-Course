@@ -21,56 +21,70 @@ public class SimpleDesaturateFeature : ScriptableRendererFeature
 {
     class RenderPass : ScriptableRenderPass
     {
-
+        private string profilingName;
         private Material material;
-        private RenderTargetIdentifier source;
-        private RenderTargetHandle tempTexture;
+        private RTHandle sourceHandle;
+        private readonly RTHandle tempTextureHandle;
 
-        public RenderPass(Material material) : base()
+        public RenderPass(string profilingName, Material material) : base()
         {
+            this.profilingName = profilingName;
             this.material = material;
-            tempTexture.Init("_TempDesaturateTexture");
+            tempTextureHandle = RTHandles.Alloc("_TempDesaturateTexture", name: "_TempDesaturateTexture");
         }
 
-        public void SetSource(RenderTargetIdentifier source)
+        public void SetSource(RTHandle source)
         {
-            this.source = source;
+            this.sourceHandle = source;
         }
 
         public override void Execute(ScriptableRenderContext context, ref RenderingData renderingData)
         {
-            CommandBuffer cmd = CommandBufferPool.Get("SimpleDesaturateFeature");
+            CommandBuffer cmd = CommandBufferPool.Get(profilingName);
 
             RenderTextureDescriptor cameraTextureDesc = renderingData.cameraData.cameraTargetDescriptor;
             cameraTextureDesc.depthBufferBits = 0;
-            cmd.GetTemporaryRT(tempTexture.id, cameraTextureDesc, FilterMode.Bilinear);
 
-            Blit(cmd, source, tempTexture.Identifier(), material, 0);
-            Blit(cmd, tempTexture.Identifier(), source);
+            cmd.GetTemporaryRT(Shader.PropertyToID(tempTextureHandle.name), cameraTextureDesc, FilterMode.Bilinear);
+            Blit(cmd, sourceHandle, tempTextureHandle, material, 0);
+            Blit(cmd, tempTextureHandle, sourceHandle);
 
             context.ExecuteCommandBuffer(cmd);
             CommandBufferPool.Release(cmd);
         }
 
+        // Cleanup any allocated resources that were created during the execution of this render pass.
         public override void FrameCleanup(CommandBuffer cmd)
         {
-            cmd.ReleaseTemporaryRT(tempTexture.id);
+            cmd.ReleaseTemporaryRT(Shader.PropertyToID(tempTextureHandle.name));
         }
     }
+
+    [System.Serializable]
+    public class Settings
+    {
+        public Material material;
+        public RenderPassEvent renderEvent = RenderPassEvent.AfterRenderingOpaques;
+    }
+
+    [SerializeField]
+    private Settings settings = new Settings();
 
     private RenderPass renderPass;
 
     public override void Create()
     {
-        var material = new Material(Shader.Find("Shader Graphs/Desaturate"));
-        this.renderPass = new RenderPass(material);
-
-        renderPass.renderPassEvent = RenderPassEvent.AfterRenderingPostProcessing;
+        this.renderPass = new RenderPass(name, settings.material);
+        renderPass.renderPassEvent = settings.renderEvent;
     }
 
     public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData)
     {
-        renderPass.SetSource(renderer.cameraColorTarget);
         renderer.EnqueuePass(renderPass);
+    }
+
+    public override void SetupRenderPasses(ScriptableRenderer renderer, in RenderingData renderingData)
+    {
+        renderPass.SetSource(renderer.cameraColorTargetHandle);  // use of target after allocation
     }
 }
