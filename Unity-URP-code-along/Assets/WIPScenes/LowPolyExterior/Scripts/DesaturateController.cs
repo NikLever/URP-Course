@@ -79,9 +79,9 @@ public class DesaturateController : MonoBehaviour
 
             //Debug.Log("_Saturation = " + saturation);
 
-            var blitFeature = feature as BlitMaterialFeature;
-            var material = blitFeature.Material;
-            material.SetFloat("_Saturation", saturation);
+            //var blitFeature = feature as BlitMaterialFeature;
+            //var material = blitFeature.Material;
+            //material.SetFloat("_Saturation", saturation);
         }
     }
 
@@ -104,9 +104,9 @@ public class DesaturateController : MonoBehaviour
             feature.SetActive(true);
             rendererData.SetDirty();
 
-            var blitFeature = feature as BlitMaterialFeature;
-            var material = blitFeature.Material;
-            material.SetFloat("_Saturation", 0);
+            //var blitFeature = feature as BlitMaterialFeature;
+            //var material = blitFeature.Material;
+            //material.SetFloat("_Saturation", 0);
 
             transitioning = false;
         }
