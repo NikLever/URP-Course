@@ -52,7 +52,7 @@ MonoBehaviour:
   m_DepthPrimingMode: 0
   m_CopyDepthMode: 0
   m_AccurateGbufferNormals: 0
-  m_IntermediateTextureMode: 0
+  m_IntermediateTextureMode: 1
 --- !u!114 &5126112682907013864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67,4 +67,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Active: 1
   m_Shader: {fileID: 4800000, guid: 759f253c8cf3247f58f33fc80a845123, type: 3}
-  m_Color: {r: 0.05127317, g: 0.6415094, b: 0.021181926, a: 0}
+  m_Color: {r: 0.48549306, g: 1, b: 0.4198113, a: 0}
