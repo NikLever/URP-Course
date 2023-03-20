@@ -66,5 +66,6 @@ MonoBehaviour:
   m_Name: TintFeature
   m_EditorClassIdentifier: 
   m_Active: 1
-  m_Shader: {fileID: 4800000, guid: 759f253c8cf3247f58f33fc80a845123, type: 3}
-  m_Color: {r: 0.48549306, g: 1, b: 0.4198113, a: 0}
+  shader: {fileID: 4800000, guid: 759f253c8cf3247f58f33fc80a845123, type: 3}
+  color: {r: 0.17590779, g: 0.6320754, b: 0.1765338, a: 0}
+  renderEvent: 550
